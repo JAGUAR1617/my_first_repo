@@ -1,3 +1,4 @@
+// here you can get number of bubbles by creaing new Bubbles[];
 Bubble[] bubble= new Bubble[10];
 int total=0;
 
