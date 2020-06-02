@@ -5,6 +5,8 @@ void setup() {
   size(640, 480, P3D); 
   //background(255, 255, 255, 255);
   for (int i= 0; i<bubble.length; i++) {
+  
+  // array of bubbles can be called using new Bubble command 
   bubble[i] =new Bubble (random(50));
   //bubble[1] =new Bubble (50);
   }
@@ -22,6 +24,7 @@ void setup() {
 void draw() {
   
   for (int i=0; i<bubble.length; i++){
+  //to display all bubbles or i number of bubbles 
   bubble[i].display();
   bubble[i].ascend();
   bubble[i].top();
