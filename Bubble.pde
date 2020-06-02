@@ -4,7 +4,7 @@ class Bubble
   float y;
   float dia;
   
-
+//the constructor
   Bubble(float tempDia)
   {
     x=width/2;
