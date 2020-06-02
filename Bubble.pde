@@ -16,6 +16,7 @@ class Bubble
 // this to show circles 
   void display() {
     stroke(random(255), random(250),random(250));
+    //creating line on x, y coordinate with the diamere from bubble array
     line(x, y, bubble[1].x, bubble[1].y);
     strokeWeight(3);
     fill(random(250),random(250),random(250));
