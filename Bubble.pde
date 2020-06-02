@@ -1,3 +1,4 @@
+//class name must be same as new tab name 
 class Bubble
 {
   float x;
